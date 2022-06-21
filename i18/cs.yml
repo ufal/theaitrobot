@@ -1,0 +1,122 @@
+cs:
+    AI vygeneruje pokračování: AI vygeneruje pokračování
+    AI vygeneruje synopsi: AI vygeneruje synopsi
+    další řádek: další řádek
+    Další ukázkový název: Další ukázkový název
+    Další ukázkový scénář: Další ukázkový scénář
+    Generovat dál: Generovat dál
+    GENEROVAT DÁL: GENEROVAT DÁL
+    Generovat další repliku dle modelu: Generovat další repliku dle modelu
+    Generovat repliku postavy: Generovat repliku postavy
+    Generovat repliku zadané nové postavy: Generovat repliku zadané nové postavy
+    GENEROVAT SCÉNÁŘ Z TÉTO SYNOPSE: GENEROVAT SCÉNÁŘ <br> Z TÉTO SYNOPSE
+    GENEROVAT SYNOPSI: GENEROVAT SYNOPSI
+    Hlavní stránka: Hlavní stránka
+    Jméno druhé postavy: Jméno druhé postavy
+    Jméno nové postavy: Jméno nové postavy
+    Jméno první postavy: Jméno první postavy
+    KONEC: KONEC
+    MŮŽE ROBOT VYMYSLET DIVADELNÍ HRU?: MŮŽE ROBOT VYMYSLET DIVADELNÍ HRU?
+    Název hry: Název hry
+    Odesláno!: Odesláno!
+    O krok zpět: O krok zpět
+    Předchozí ukázkový název: Předchozí ukázkový název
+    Předchozí ukázkový scénář: Předchozí ukázkový scénář
+    Projekt je spolufinancován se státní podporou Technologické agentury ČR v rámci Programu ÉTA 3.: Projekt je spolufinancován se státní podporou <a href="https://www.tacr.cz/">Technologické agentury ČR</a> v rámci Programu ÉTA 3.
+    Projekt THEaiTRE: O projektu THEaiTRE
+    Scéna: Scéna
+    Scénář: Scénář
+    Sem napište, co řekne druhá postava.: Sem napište, co řekne druhá postava.
+    Sem napište, co řekne první postava.: Sem napište, co řekne první postava.
+    Sem napište název hry.: Sem napište název hry.
+    Sem napište popis výchozí situace.: Sem napište popis výchozí situace.
+    Switch to English: Switch to English
+    synopse: synopse
+    Synopse: Synopse
+    THEaiTRobot je dočasně mimo provoz: THEaiTRobot je dočasně mimo provoz
+    THEaiTRobot narazil na problém: THEaiTRobot narazil na problém
+    UKÁZKOVÝ NÁZEV: UKÁZKOVÝ NÁZEV
+    UKÁZKOVÝ SCENÁŘ: UKÁZKOVÝ SCENÁŘ
+    Ukončit generování synopse a přejít ke generování scénáře z této synopse: Ukončit generování synopse a přejít ke generování scénáře z této synopse
+    Více o projektu: Více o projektu
+    Vložit další větu z vygenerované synopse: Vložit další větu z vygenerované synopse
+    vygenerovaná scéna: vygenerovaná scéna
+    Vygenerovat jiné pokračování: Vygenerovat jiné pokračování
+    Vygenerovat pokračování scénáře: Vygenerovat pokračování scénáře
+    Vygenerovat synopsi hry: Vygenerovat synopsi hry
+    VYZKOUŠET: VYZKOUŠET
+    ZADEJTE VLASTNÍ NÁZEV HRY: ZADEJTE VLASTNÍ NÁZEV HRY
+    ZADEJTE VLASTNÍ SCENÁŘ: ZADEJTE VLASTNÍ SCENÁŘ
+    Zpracovává se: Zpracovává se
+    ZVOLTE, JAK POKRAČOVAT V GENEROVÁNÍ: ZVOLTE, JAK POKRAČOVAT V GENEROVÁNÍ
+    
+    oprojektu: ' <h2>O PROJEKTU</h2>
+
+        <div class="size">
+            <p>
+            Projekt <a href="https://theaitre.com/">THEaiTRE</a>
+            si klade za cíl prozkoumat, zda je současná umělá inteligence
+            schopna napsat scénář divadelní hry.
+            V rámci projektu již vznikla divadelní hra
+            <a href="https://cs.wikipedia.org/wiki/AI:_Kdy%C5%BE_robot_p%C3%AD%C5%A1e_hru"><em>AI: Když robot píše hru</em></a>,
+            autorem jejíhož
+            <a href="https://ufal.mff.cuni.cz/techrep/tr67.pdf">scénáře</a>
+            je z 10% člověk a z 90% umělá
+            inteligence. Hru nyní můžete
+            <a href="https://www.svandovodivadlo.cz/inscenace/673/ai-kdyz-robot-pise-hru/3445">vidět ve Švandově divadle</a>.
+            V dubnu 2022 bude premiéra druhé hry.
+            </p>
+            
+            <p>
+            THEaiTRobot umožňuje generování scénářů
+            s pomocí jazykového modelu
+            <a href="https://openai.com/blog/better-language-models/">GPT-2</a> od
+            konsorcia OpenAI a automatického strojového překladače
+            <a href="https://ufal.mff.cuni.cz/cubbitt">CUBBITT</a>.
+            Jazykový model umožňuje pro zadaný začátek textu generovat jeho možná pokračování;
+            například pro text <em>Tatínek ráno vstal a šel do...</em>
+            by mohl navrhnout pokračovat slovem <em>práce</em> nebo <em>koupelny</em>,
+            méně pravděpodobně <em>kina</em> a zcela nepravděpodobně <em>uletěli</em>.
+            A takto, slovo po slově, umožňuje generovat celé věty i delší texty.
+            </p>
+            
+            <p>
+            Jazykový model GPT-2 ví, jak psát texty, protože
+            má načtené miliony textů, hlavně internetových stránek;
+            modely, které používáme v THEaiTRobotovi 2.0, jsme navíc speciálně
+            doučili na synopsích a scénářích.
+            V těchto textech tedy viděl, jaká slova obvykle následují po kterých slovech.
+            Navíc používá hluboké umělé neuronové sítě a další pokročilé techniky,
+            takže například chápe i podobnost významů různých slov, která se v textech
+            vyskytují v podobných situacích (například <em>kino</em> a <em>divadlo</em>).
+            </p>
+
+            <p>
+            Varování: podkladové texty nebyly ručně zkontrolovány, výstupy THEaiTRobota
+            proto mohou obsahovat nevhodné výrazy, předsudky, urážky, a podobně.
+            Tento problém je společný většině takovýchto velkých jazykových modelů,
+            které napodobují to, co se skrze podkladové texty naučily od nás, lidí.
+            Při používání nástroje používejte svůj vlastní úsudek.
+            </p>
+
+            <p>
+            Upozornění: zadávané vstupy a vygenerované scénáře jsou ukládány do naší databáze a jsou veřejně přístupné. Prosíme, nezadávejte proto žádné osobní či jiné soukromé údaje.
+            </p>
+
+            <p>
+            THEaiTRE je společným projektem
+            <a href="https://www.matfyz.cz/">Matematicko-fyzikální fakulty Univerzity Karlovy</a>,<br>
+            <a href="https://www.svandovodivadlo.cz/">Švandova divadla</a>,
+            <a href="https://www.damu.cz/">DAMU</a> a
+            <a href="https://www.ceehacks.com/">CEE Hacks</a>.
+            </p>
+        </div> '
+    theaitrobot10intro: '<h3>THEaiTRobot 1.0</h3>
+                <p>Základní jednodušší varianta.</p>
+                <p>Generuje scénář z popisu
+                výchozí situace a prvních replik postav.<p>'
+    theaitrobot20intro: '<h3>THEaiTRobot 2.0</h3>
+                <p>Složitější dvoukroková varianta.</p>
+                <p>Nejprve z názvu hry
+                generuje synopsi, poté ze synopse generuje scénář.<p>'
+

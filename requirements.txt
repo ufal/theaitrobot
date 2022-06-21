@@ -1,0 +1,13 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+transformers==4.17
+torch==1.10.2+cu111
+dataset
+numpy
+requests
+logzero
+flask
+unidecode
+spacy
+pytextrank
+langid
+python-i18n[YAML]

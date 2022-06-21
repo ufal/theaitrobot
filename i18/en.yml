@@ -1,0 +1,125 @@
+en:
+    AI vygeneruje pokračování: AI will generate a continuation
+    AI vygeneruje synopsi: AI will generate a synopsis
+    další řádek: next line
+    Další ukázkový název: Next sample title
+    Další ukázkový scénář: Next sample script
+    Generovat dál: Generate further
+    GENEROVAT DÁL: GENERATE FURTHER
+    Generovat další repliku dle modelu: Generate next line according to the model
+    Generovat repliku postavy: Generate character line
+    Generovat repliku zadané nové postavy: Generate line of the given character
+    GENEROVAT SCÉNÁŘ Z TÉTO SYNOPSE: GENERATE SCRIPT <br> FROM THIS SYNOPSIS
+    GENEROVAT SYNOPSI: GENERATE SYNOPSIS
+    Hlavní stránka: Main page
+    Jméno druhé postavy: Name of second character
+    Jméno nové postavy: Name of new character
+    Jméno první postavy: Name of first character
+    KONEC: THE END
+    MŮŽE ROBOT VYMYSLET DIVADELNÍ HRU?: CAN A ROBOT WRITE A THEATRE PLAY?
+    Název hry: Play title
+    Odesláno!: Sent!
+    O krok zpět: Step back
+    Předchozí ukázkový název: Previous sample title
+    Předchozí ukázkový scénář: Previous sample script
+    Projekt je spolufinancován se státní podporou Technologické agentury ČR v rámci Programu ÉTA 3.: The project is co-financed with the state support of <a href="https://www.tacr.cz/">Technological Agency of the Czech Republic</a> within the ETA 3 Programme.
+    Projekt THEaiTRE: The THEaiTRE project
+    Scénář: Script
+    Scéna: Scene
+    Sem napište, co řekne druhá postava.: Write here what the second character says
+    Sem napište, co řekne první postava.: Write here what the first character says.
+    Sem napište název hry.: Write here the play title.
+    Sem napište popis výchozí situace.: Write here a description of the starting situation.
+    Switch to English: Přepnout do češtiny
+    synopse: synopsis
+    Synopse: Synopsis
+    THEaiTRobot je dočasně mimo provoz: THEaiTRobot is temporarily unavailable
+    THEaiTRobot narazil na problém: THEaiTRobot encountered a problem
+    UKÁZKOVÝ NÁZEV: SAMPLE TITLE
+    UKÁZKOVÝ SCENÁŘ: SAMPLE SCRIPT
+    Ukončit generování synopse a přejít ke generování scénáře z této synopse: Terminate synopsis generation and continue by generating a script from this synopsis
+    Více o projektu: More about the project
+    Vložit další větu z vygenerované synopse: Insert the next sentence from the generated synopsis
+    vygenerovaná scéna: generated scene
+    Vygenerovat jiné pokračování: Generate a different continuation
+    Vygenerovat pokračování scénáře: Generate a continuation of the script
+    Vygenerovat synopsi hry: Generate play synopsis
+    VYZKOUŠET: TRY OUT
+    ZADEJTE VLASTNÍ NÁZEV HRY: INPUT YOUR OWN PLAY TITLE
+    ZADEJTE VLASTNÍ SCENÁŘ: INPUT YOUR OWN SCRIPT
+    Zpracovává se: Processing
+    ZVOLTE, JAK POKRAČOVAT V GENEROVÁNÍ: CHOOSE HOW TO CONTINUE GENERATING
+    oprojektu: ' <h2>ABOUT THE PROJECT</h2>
+
+        <div class="size">
+            <p>
+            The <a href="https://theaitre.com/">THEaiTRE</a> project
+            aims to investigate whether current artificial intelligence
+            can write a theatre play script.
+            The theatre play
+            <a href="https://en.wikipedia.org/wiki/AI:_When_a_Robot_Writes_a_Play"><em>AI: When a Robot Writes a Play</em></a>
+            has already been produced within the project,
+            with 10% of 
+            <a href="https://ufal.mff.cuni.cz/techrep/tr67.pdf">its script</a>
+            written by a human and 90% by artificial intelligence.
+            You can see the play in
+            <a href="https://www.svandovodivadlo.cz/inscenace/673/ai-kdyz-robot-pise-hru/3445">Švanda theatre in Prague</a>.
+            A second play will premiere in April 2022.
+            </p>
+            
+            <p>
+            THEaiTRobot generates theatre scripts using the
+            <a href="https://openai.com/blog/better-language-models/">GPT-2</a>
+            language model by the OpenAI consortium,
+            and the automated machine translation system
+            <a href="https://ufal.mff.cuni.cz/cubbitt">CUBBITT</a>.
+            A language model can, for a given start of a text,
+            generate possible continuations;
+            for example, for the text <em>I woke up in the morning and went to the...</em>,
+            it could suggest continuing with the word <em>bathroom</em> or <em>kitchen</em>,
+            less probably <em>cinema</em>, and very improbably <em>sing</em>.
+            And in this way, word by word, it can generate whole sentences as well as longer texts.
+            </p>
+            
+            <p>
+            The GPT-2 language model knows how to write texts, as it has read
+            millions of texts, especially web pages; additionally,
+            the models we use in THEaiTRobot 2.0 were also specifically
+            fine-tuned on synopses and scripts.
+            This is where the model saw which words typically follow which words.
+            Moreover, it uses deep artificial neural networks and other advanced techniques,
+            so it for instance understands even similarities of meanings of words
+            which often appear in similar situations in the texts
+            (for example, <em>cinema</em> and <em>theatre</em>).
+            </p>
+
+            <p>
+            Warning: the underlying texts have not been manually checked,
+            THEaiTRobot outputs can therefore contain improper language, biases,
+            offensive language, etc. This problem is common to most of the large
+            language models, which only mimic what they have learned from us, people,
+            via the texts written by us.
+            Use your own judgement when using the tool.
+            </p>
+            
+            <p>
+            Notice: the entered inputs and the generated outputs are stored in our database and are publicly accessible. Therefore, please do not enter any personal or otherwise private data.
+            </p>
+
+            <p>
+            THEaiTRE is a joint project of
+            <a href="https://www.matfyz.cz/">Faculty of Mathematics and Physics of Charles University</a>,<br>
+            <a href="https://www.svandovodivadlo.cz/">Švanda theatre</a>,
+            <a href="https://www.damu.cz/">Theatre Faculty of the Academy of Performing Arts</a>, and
+            <a href="https://www.ceehacks.com/">CEE Hacks</a>.
+            </p>
+        </div> '
+    theaitrobot10intro: '<h3>THEaiTRobot 1.0</h3>
+                <p>Basic simpler variant.</p>
+                <p>Generates a script from a scene setting and first lines of
+                the characters.<p>'
+    theaitrobot20intro: '<h3>THEaiTRobot 2.0</h3>
+                <p>More complex two-step variant.</p>
+                <p>First generates a synopsis from a play name, then generates
+                a script from the synopsis.<p>'
+        
